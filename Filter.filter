@@ -458,32 +458,12 @@ Show
 	CustomAlertSound "sounds/Salat.mp3"
 
 Show	
-	HasExplicitMod "Thunderhand's"
+	HasExplicitMod "Adept's"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
 Show	
-	HasExplicitMod "Flame Shaper's"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 220 40 40
-	SetTextColor 220 40 40
-Show	
-	HasExplicitMod "Frost Singer's"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 220 40 40
-	SetTextColor 220 40 40
-Show	
-	HasExplicitMod "Rimedweller's"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 220 40 40
-	SetTextColor 220 40 40
-Show	
-	HasExplicitMod "Vulcanist's"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 220 40 40
-	SetTextColor 220 40 40
-Show	
-	HasExplicitMod "Stormbrewer's"
+	HasExplicitMod "of Wasting"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
