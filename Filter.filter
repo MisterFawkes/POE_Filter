@@ -457,33 +457,32 @@ Show
 
 
 Show	
-	HasExplicitMod Thunderhand's
+	HasExplicitMod "Thunderhand's"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
 Show	
-	HasExplicitMod Flame Shaper's
+	HasExplicitMod "Flame Shaper's"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
 Show	
-	HasExplicitMod Frost Singer's
+	HasExplicitMod "Frost Singer's"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
 Show	
-	HasExplicitMod Rimedweller's
+	HasExplicitMod "Rimedweller's"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
 Show	
-	HasExplicitMod Vulcanist's
+	HasExplicitMod "Vulcanist's"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
 Show	
-	HasExplicitMod Stormbrewer's
+	HasExplicitMod "Stormbrewer's"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
-
