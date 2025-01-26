@@ -8,7 +8,7 @@
 # is con global and not until next show?
 
 
-#----------- BASE SETTING ------------
+# ============ BASE SETTING ============
 
 Hide
 	Rarity < Rare
@@ -90,7 +90,7 @@ Hide
 	Continue
 
 
-#----------- QUALITY ------------
+# =============== QUALITY ==============
 Show
 	Quality > 0
 	SetBackgroundColor 240 255 210 120
@@ -99,7 +99,7 @@ Show
 	Continue
 
 
-#----------- UNIQUES ------------
+# =============== UNIQUES ==============
 
 Show
 	Rarity == Unique
@@ -110,7 +110,7 @@ Show
 	SetTextColor 255 100 20
 	SetBorderColor 255 50 50
 
-#----------- CURRENCIES ------------
+# ============= CURRENCIES =============
 
 Show
 	Class Currency
@@ -251,7 +251,7 @@ Show
 
 
 
-#----------- FLASKS ------------
+# =============== FLASKS ===============
 
 #Show
 #	Class Flask
@@ -269,7 +269,7 @@ Show
 	SetTextColor 160 160 160
 
 
-#----------- EQUIPMENT ------------
+# ============== EQUIPMENT =============
 
 # 4-Blue
 Show
@@ -357,7 +357,7 @@ Show
 	SetTextColor 20 120 180
 
 
-#----------- MISCELLANEOUS ------------
+# =========== MISCELLANEOUS ============
 
 # Map Fragments
 Show
@@ -392,7 +392,7 @@ Show
 	SetTextColor 20 180 120
 
 
-#----------- FIND GEAR ------------
+# ============== FIND GEAR =============
 
 
 #neat Boots
@@ -430,6 +430,7 @@ Show
 	SetTextColor 220 40 40
 	PlayEffect Yellow
 
+# ======================================
 # all Weapons needed
 #Show	
 #	Class Daggers
@@ -445,6 +446,7 @@ Show
 #	SetBorderColor 220 40 40
 #	SetTextColor 220 40 40
 
+# ======================================
 # Enlighten Support
 Show	
 	BaseType "Enlighten Support"
@@ -454,7 +456,6 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 	CustomAlertSound "sounds/Salat.mp3"
-
 
 Show	
 	HasExplicitMod "Thunderhand's"
