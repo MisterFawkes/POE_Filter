@@ -271,9 +271,9 @@ Show
 
 #----------- EQUIPMENT ------------
 
-# 3-Blue
+# 4-Blue
 Show
-	SocketGroup >= 3BBB
+	SocketGroup >= 4BBB
 	Rarity >= Rare
 	SetBackgroundColor 0 0 0 100
 	SetBorderColor 200 255 255
