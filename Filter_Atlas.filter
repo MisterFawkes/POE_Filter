@@ -228,7 +228,6 @@ Show
 	SetTextColor 80 50 20
 
 Show
-	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
 	BaseType "Orb of Augmentation"
 	SetTextColor 0 0 90
 
