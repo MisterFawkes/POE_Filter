@@ -395,6 +395,18 @@ Show
 
 # ============== FIND GEAR =============
 
+Show	
+	BaseType "Amethyst Ring"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+
+Show	
+	BaseType "Convoking Wand"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+
 
 #neat Boots
 Show	
