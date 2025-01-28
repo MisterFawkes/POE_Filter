@@ -1,0 +1,475 @@
+#Hide
+#	Rarity < Rare
+#	Continue
+
+# TODO: best implicit version of Item
+# TODO: Sammelkarten, Ringe & Amulette, Quest, Map Fragment, Vaal/Quality Gems  --Done
+# TODO: Flasks: only show Quality, magic, unique and utility
+
+# is con global and not until next show?
+
+
+# ============ BASE SETTING ============
+
+Hide
+	Rarity < Rare
+	Class Gloves
+	Continue
+Hide
+	Rarity < Rare
+	Class Claws
+	Continue
+Hide
+	Rarity < Rare
+	Class Body Armours
+	Continue
+Hide
+	Rarity < Rare
+	Class Staves
+	Continue
+Hide
+	Rarity < Rare
+	Class Quivers
+	Continue
+Hide
+	Rarity < Rare
+	Class One Hand
+	Continue
+Hide
+	Rarity < Rare
+	Class Bows
+	Continue
+Hide
+	Rarity < Rare
+	Class Two Hand
+	Continue
+Hide
+	Rarity < Rare
+	Class Sceptres
+	Continue
+Hide
+	Rarity < Rare
+	Class Life Flasks
+	Continue
+Hide
+	Rarity < Rare
+	Class Daggers
+	Continue
+Hide
+	Rarity < Rare
+	Class Boots
+	Continue
+Hide
+	Rarity < Rare
+	Class Shields
+	Continue
+Hide
+	Rarity < Rare
+	Class Helmets
+	Continue
+Hide
+	Rarity < Rare
+	Class Warstaves
+	Continue
+Hide
+	Rarity < Rare
+	Class Belts
+	Continue
+Hide
+	Rarity < Rare
+	Class Wands
+	Continue
+Hide
+	Rarity < Rare
+	Class Mana Flasks
+	Continue
+Hide
+	Class Skill Gems
+	Continue
+Hide
+	Class Support Skill Gems
+	Continue
+
+
+# =============== QUALITY ==============
+Show
+	Quality > 0
+	SetBackgroundColor 240 255 210 120
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	Continue
+
+
+# =============== UNIQUES ==============
+
+Show
+	Rarity == Unique
+	CustomAlertSound "sounds/short-choir.mp3"
+	PlayEffect Orange
+	MinimapIcon 2 Orange Diamond
+	SetBackgroundColor 0 0 0 100
+	SetTextColor 255 100 20
+	SetBorderColor 255 50 50
+
+# ============= CURRENCIES =============
+
+Show
+	Class Currency
+	SetBackgroundColor 240 255 210 120
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	Continue
+
+Show
+	BaseType "Chromatic Orb"
+	SetTextColor 90 0 90
+
+Show
+	BaseType "Orb of Transmutation"
+	SetTextColor 0 0 90
+
+Show
+	BaseType "Orb of Alteration"
+	SetTextColor 20 20 150
+   
+Show
+	BaseType "Armourer's Scrap"
+	SetTextColor 180 180 180
+
+Show
+	BaseType "Blacksmith's Whetstone"
+	SetTextColor 180 180 180
+		
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Jeweller's Orb"
+	SetBorderColor 110 90 0
+	SetTextColor 40 40 40
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Orb of Fusing"
+	SetBorderColor 110 90 0
+	SetTextColor 40 40 40
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Vaal Orb"
+	SetTextColor 160 20 20
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Chaos Orb"
+	SetBorderColor 220 180 0
+	SetTextColor 60 50 0
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Raindrop
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Orb of Binding"
+	SetBorderColor 220 180 0
+	SetTextColor 60 50 0
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Orb of Alchemy"
+	SetBorderColor 220 180 0
+	SetTextColor 60 50 0
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Blessed Orb"
+	SetBorderColor 220 180 0
+	SetTextColor 60 50 0
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Raindrop
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Exalted Orb"
+	SetBorderColor 220 180 0
+	SetTextColor 60 50 0
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Raindrop
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Divine Orb"
+	SetBorderColor 220 180 0
+	SetTextColor 60 50 0
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Raindrop
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Regal Orb"
+	SetBorderColor 220 180 0
+	SetTextColor 20 80 250
+	PlayEffect Blue
+	MinimapIcon 2 Blue Raindrop
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Orb of Scouring"
+	SetBorderColor 220 180 0
+	SetTextColor 250 250 250
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Orb of Regret"
+	SetBorderColor 220 180 0
+	SetTextColor 230 230 230
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Orb of Chance"
+	SetBorderColor 220 180 0
+	SetTextColor 80 50 20
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Orb of Augmentation"
+	SetTextColor 0 0 90
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Glassblower's Bauble"
+	SetBorderColor 110 90 0
+	SetTextColor 100 200 120
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Gemcutter's Prism"
+	SetBorderColor 110 90 0
+	SetTextColor 20 80 60
+
+Show
+	CustomAlertSound "sounds/caching-sound-effect.mp3" 80
+	BaseType "Cartographer's Chisel"
+	SetBorderColor 110 90 0
+	SetTextColor 0 50 20
+
+
+
+# =============== FLASKS ===============
+
+#Show
+#	Class Flask
+#	Rarity == Magic
+#	SetBackgroundColor 0 100 120 180
+#	SetBorderColor 110 110 110
+#	SetTextColor 0 10 100
+#	Continue
+
+Show
+	Class Flask
+	Quality > 5
+	SetBackgroundColor 0 100 120 180
+	SetBorderColor 110 110 110
+	SetTextColor 160 160 160
+
+
+# ============== EQUIPMENT =============
+
+# 4-Blue
+Show
+	SocketGroup >= 4BBB
+	Rarity >= Rare
+	SetBackgroundColor 0 0 0 100
+	SetBorderColor 200 255 255
+	SetTextColor 200 255 255
+
+# Chromatic
+Show
+	SocketGroup >= 3RGB
+	CustomAlertSound "sounds/double_rainbow.mp3"
+	SetBorderColor 080 255 080
+	SetTextColor 230 130 230
+
+# High-Link
+Show
+	SocketGroup >= 5
+	SetBackgroundColor 0 0 0 100
+	SetBorderColor 200 255 255
+	SetTextColor 200 255 255
+
+# Jewellery Trash
+Hide
+	Class Rings
+	Rarity < Rare
+	SetBackgroundColor 255 255 255 80
+	SetTextColor 80 40 0
+	SetBorderColor 60 0 0
+
+Hide
+	Class Amulets
+	Rarity < Rare
+	SetBackgroundColor 255 255 255 80
+	SetTextColor 80 40 0
+	SetBorderColor 60 0 0
+
+
+# Quality & Corrupted Skill Gems
+Show
+	Class Skill Gems
+	Quality > 0
+	SetBackgroundColor 255 255 255 200
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	Continue
+
+Show
+	Class Skill Gems
+	Corrupted True
+	SetBackgroundColor 255 255 255 200
+	SetTextColor 80 0 0
+	SetBorderColor 100 0 0
+
+
+# Quality & Corrupted Support Gems
+Show
+	Class Support Skill Gems
+	Quality > 0
+	SetBackgroundColor 255 255 255 200
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	Continue
+
+Show	
+	Class Support Skill Gems
+	Corrupted True
+	SetBackgroundColor 255 255 255 200
+	SetTextColor 80 0 0
+	SetBorderColor 100 0 0
+
+# Jewels
+Show
+	Class Jewels
+	SetBackgroundColor 20 20 20 200
+	SetBorderColor 20 180 120
+	SetTextColor 20 180 120
+
+# Divination Cards
+Show
+	Class Divination Cards
+	SetBackgroundColor 20 20 20 200
+	SetBorderColor 20 120 180
+	SetTextColor 20 120 180
+
+
+# =========== MISCELLANEOUS ============
+
+# Map Fragments
+Show
+	Class Map Fragments
+	SetBackgroundColor 255 255 255 100
+	SetBorderColor 0 50 0
+	SetTextColor 0 50 0
+	Continue
+
+# Maps
+Show
+	Class Maps
+	SetBackgroundColor 255 255 255 150
+	SetBorderColor 0 0 150
+	SetTextColor 0 0 150
+	PlayEffect Blue
+	MinimapIcon 2 Blue Hexagon
+
+# Quest Items
+Show
+	Class Quest Items
+	PlayEffect Green
+	SetBackgroundColor 0 50 0 200
+	SetBorderColor 120 160 0
+	SetTextColor 40 255 40
+
+# Test, What are Pieces?
+Show	
+	Class Pieces
+	SetBackgroundColor 20 20 20 200
+	SetBorderColor 20 180 120
+	SetTextColor 20 180 120
+
+
+# ============== FIND GEAR =============
+
+
+#neat Boots
+Show	
+	Class Boots
+	SocketGroup == 4BBB
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+
+# 6 link any
+Show	
+	SocketGroup == 6
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	CustomAlertSound "sounds/666.mp3"
+
+# 6 socket
+Show	
+	Sockets == 6
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+	PlayEffect Red
+
+# 5 link Armour
+Show	
+	Class Body Armours
+	SocketGroup == 5
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+	PlayEffect Yellow
+
+# ======================================
+# all Weapons needed
+#Show	
+#	Class Daggers
+#	Rarity >= Rare
+#	SetBackgroundColor 255 255 255 255
+#	SetBorderColor 220 40 40
+#	SetTextColor 220 40 40
+#
+#Show	
+#	Class Claws
+#	Rarity >= Rare
+#	SetBackgroundColor 255 255 255 255
+#	SetBorderColor 220 40 40
+#	SetTextColor 220 40 40
+
+# ======================================
+# Enlighten Support
+Show	
+	BaseType "Enlighten Support"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	CustomAlertSound "sounds/Salat.mp3"
+
+Show	
+	HasExplicitMod "Adept's"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+Show	
+	HasExplicitMod "Mad Lord's"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+Show	
+	HasExplicitMod "of Wasting"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
