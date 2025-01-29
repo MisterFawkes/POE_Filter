@@ -253,13 +253,13 @@ Show
 
 # =============== FLASKS ===============
 
-#Show
-#	Class Flask
-#	Rarity == Magic
-#	SetBackgroundColor 0 100 120 180
-#	SetBorderColor 110 110 110
-#	SetTextColor 0 10 100
-#	Continue
+Show
+	Class Flask
+	Rarity > Magic
+	SetBackgroundColor 0 100 120 180
+	SetBorderColor 110 110 110
+	SetTextColor 0 10 100
+	Continue
 
 Show
 	Class Flask
@@ -406,10 +406,55 @@ Show
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
 
+Show	
+	BaseType "Prophecy Wand"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+
+Show	
+	BaseType "Twilight Regalia"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40	
+	
+Show	
+	BaseType "Necrotic Armour"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+
+Show	
+	BaseType "Torturer Garb"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+
+# Weapon Mods
+Show	
+	HasExplicitMod "Adept's"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+Show	
+	HasExplicitMod "Mad Lord's"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+Show	
+	HasExplicitMod "of Wasting"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
+Show	
+	HasExplicitMod "Essences"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
 
 #neat Boots
 Show	
-	Class Boots
+	Class Gloves
 	SocketGroup == 4BBB
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
@@ -442,7 +487,6 @@ Show
 	SetTextColor 220 40 40
 	PlayEffect Yellow
 
-# ======================================
 # all Weapons needed
 #Show	
 #	Class Daggers
@@ -458,7 +502,6 @@ Show
 #	SetBorderColor 220 40 40
 #	SetTextColor 220 40 40
 
-# ======================================
 # Enlighten Support
 Show	
 	BaseType "Enlighten Support"
@@ -468,24 +511,3 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 	CustomAlertSound "sounds/Salat.mp3"
-
-Show	
-	HasExplicitMod "Adept's"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 220 40 40
-	SetTextColor 220 40 40
-Show	
-	HasExplicitMod "Mad Lord's"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 220 40 40
-	SetTextColor 220 40 40
-Show	
-	HasExplicitMod "of Wasting"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 220 40 40
-	SetTextColor 220 40 40
-Show	
-	HasExplicitMod "Essences"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 220 40 40
-	SetTextColor 220 40 40
