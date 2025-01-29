@@ -484,3 +484,8 @@ Show
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 220 40 40
 	SetTextColor 220 40 40
+Show	
+	HasExplicitMod "Essences"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 220 40 40
+	SetTextColor 220 40 40
